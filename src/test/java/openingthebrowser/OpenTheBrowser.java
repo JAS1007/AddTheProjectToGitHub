@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 public class OpenTheBrowser {
 	WebDriver driver;
 	
+	//just adding the comment (jas100799)
+	
 	@BeforeTest
 	public void openBrowser() {
 		driver = new ChromeDriver();
